@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+}
+.first h1{
+    width: 35rem;
+
+}
+.first p{
+    width: 35rem;
+}
+.first .button{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first .button{
+    text-decoration: none;
+    background-color: beige;
+}
