@@ -1,19 +1,48 @@
 body{
     background-color: beige;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.first h1{
-    width: 35rem;
-
-}
-.first p{
-    width: 35rem;
-}
-.first .button{
-    text-decoration: none;
+.first{
     display: flex;
-    justify-content: space-evenly;
 }
-.first .button{
+.text{
+    padding: 40px;
+}
+.text h1{
+    width: 20rem;
+}
+.edition{
+    font-size: 30px;
+}
+.text p{
+    width: 30rem;
+}
+.button a{
+    margin-top: 20rem;
+}
+.button a{
     text-decoration: none;
-    background-color: beige;
+    background-color:brown;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    justify-content: right;
+    align-items: right;
+}
+.grid{
+    max-width: 50%;
+}
+.grid img{
+width: 30rem;
+height: 100%;
+border-radius: 3rem;
 }
